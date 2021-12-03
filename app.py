@@ -1,7 +1,7 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-from dash import html
+from dash_html_components.Label import Label
 from pandas.io.formats import style
 import plotly.express as px
 import pandas as pd
@@ -16,7 +16,7 @@ colors = {"background": "#011833", "text": "#7FDBFF"}
 app.layout = html.Div(
     [
         html.H1(
-            "Maaradox's Dashboard",
+            "Maradox's Dashboard",
         ),
         html.Div(
             [
